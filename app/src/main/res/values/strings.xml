@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Weather application</string>
+    <string name="app_title">Welcome to your Weather app</string>
+    <string name="app_find">Look for other locations</string>
+    <string name="app_locate">Get local weather</string>
+    <string name="city_label">City</string>
+    <string name="wind_label">Wind speed</string>
+    <string name="temp_label">Celsius</string>
+    <string name="cloud_label">Cloudiness</string>
+    <string name="back_button">Back</string>
+    <string name="search_button">Search</string>
+    <string name="search_text">Enter city name</string>
+</resources>

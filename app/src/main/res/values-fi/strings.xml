@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="app_name">Sääsovellus</string>
+        <string name="app_title">Tervetuloa sääsovellukseesi</string>
+        <string name="app_find">Etsi muita paikkoja</string>
+        <string name="app_locate">Hanki paikallinen sää</string>
+        <string name="city_label">Kaupunki</string>
+        <string name="wind_label">Tuulen nopeus</string>
+        <string name="temp_label">Celsius</string>
+        <string name="cloud_label">Pilvisyys</string>
+        <string name="back_button">Takaisin</string>
+        <string name="search_button">Hae</string>
+        <string name="search_text">Anna kaupungin nimi</string>
+</resources>
