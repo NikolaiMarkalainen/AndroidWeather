@@ -137,14 +137,12 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     private void jsonParse(double latitude, double longitude){
-        Log.d("TRASH", "WE ARE IN JSONPARSE");
         String url = "https://api.openweathermap.org/data/2.5/weather?lat=" + latitude + "&lon=" + longitude + "&appid=" + API_KEY;
         JsonObjectRequest request =  new JsonObjectRequest(Request.Method.GET, url, null,
                 new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
                         try{
-                            Log.d("WE ARE TRYING TO LOG SHIT", "D");
                             String city = response.getString("name");
                             double ws = response.getJSONObject("wind").getDouble("speed");
                             double temp = response.getJSONObject("main").getDouble("temp");
